@@ -1,0 +1,8 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$danger: rgb(8, 70, 16);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "cover"

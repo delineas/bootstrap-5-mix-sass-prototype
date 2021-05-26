@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap_prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "npx sass --watch scss/custom.scss css/styles.css",
+    "dev:sass": "npx sass scss/custom.scss css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.11",
+    "postcss": "^8.2.4",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^8.0.2"
+  }
+}
